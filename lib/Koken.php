@@ -56,6 +56,6 @@ class Koken {
    *   Whether connection were successful.
    */
   public function test() {
-    return $this->call('/albums', '', 'GET');
+    return $this->call('/albums');
   }
 }
